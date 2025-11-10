@@ -1,0 +1,31 @@
+{
+  "name": "galileo-mastra-example",
+  "version": "1.0.0",
+  "description": "Example integration of Mastra with Galileo Observability",
+  "type": "module",
+  "scripts": {
+    "start": "tsx mastra-galileo-integration.ts",
+    "quick-start": "tsx quick-start.ts",
+    "advanced": "tsx advanced-workflow-example.ts",
+    "dev": "tsx watch mastra-galileo-integration.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^2.0.23",
+    "@mastra/arize": "latest",
+    "@mastra/core": "latest",
+    "@mastra/libsql": "latest",
+    "@mastra/loggers": "latest",
+    "dotenv": "^16.6.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/resources": "^2.2.0",
+    "@opentelemetry/sdk-trace-base": "^2.2.0",
+    "@opentelemetry/sdk-trace-node": "^2.2.0",
+    "@opentelemetry/semantic-conventions": "^1.38.0",
+    "@types/node": "^20.17.57",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
