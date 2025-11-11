@@ -556,11 +556,7 @@ await new Promise(resolve => setTimeout(resolve, 10000));
 
 ## See Also
 
-### Internal Documentation
-- [SOLUTION.md](./SOLUTION.md) - Complete problem/solution explanation
-- [SPAN-HIERARCHY.md](./SPAN-HIERARCHY.md) - Understanding token metrics
-- [TERMINOLOGY.md](./TERMINOLOGY.md) - OpenTelemetry vs OpenInference
-- [QUICK-REFERENCE.md](./QUICK-REFERENCE.md) - Quick setup guide
+WIP
 
 ### External Resources
 - [OpenInference Semantic Conventions](https://arize-ai.github.io/openinference/spec/semantic_conventions.html) - Official specification for all OpenInference attributes (span kinds, token counts, message formats, etc.)
