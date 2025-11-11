@@ -17,3 +17,11 @@ This example demonstrates how to integrate Mastra agents with Galileo Observabil
 - Automatic instrumentation - no manual wrapping needed
 
 **This integration shows you how to get Galileo observability for Mastra applications.**
+
+### What About Galileo's Official Vercel AI SDK Docs?
+
+Galileo has [official documentation for Vercel AI SDK](https://v2docs.galileo.ai/sdk-api/third-party-integrations/opentelemetry-and-openinference/vercel-ai), but that's for **direct Vercel AI SDK usage** (without Mastra). If you're using Mastra's agent framework, you should follow **this integration** instead because:
+
+- Mastra already wraps and instruments Vercel AI SDK calls via AI Tracing
+- Trying to use both approaches would instrument the same calls twice
+- Mastra's `ArizeExporter` is designed to work with Mastra's agent/workflow abstractions
