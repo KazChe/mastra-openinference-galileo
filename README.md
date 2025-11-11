@@ -319,14 +319,6 @@ telemetry: {
 
 ## Related Documentation
 
-### Internal Guides
-- [INDEX.md](./INDEX.md) - Complete overview of all examples
-- [SETUP.md](./SETUP.md) - Step-by-step setup guide
-- [SOLUTION.md](./SOLUTION.md) - How we solved the integration
-- [SPAN-HIERARCHY.md](./SPAN-HIERARCHY.md) - Understanding token metrics
-- [TERMINOLOGY.md](./TERMINOLOGY.md) - OpenTelemetry vs OpenInference
-- [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) - Diagnostic commands
-- [QUICK-REFERENCE.md](./QUICK-REFERENCE.md) - Quick copy-paste guide
 
 ### External Resources
 - **[OpenInference Semantic Conventions](https://arize-ai.github.io/openinference/spec/semantic_conventions.html)** - Official spec for all OpenInference attributes (required reading!)
